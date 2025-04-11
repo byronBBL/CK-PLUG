@@ -7,6 +7,7 @@ Parameters vs. Context: Fine-Grained Control of Knowledge Reliance in Language M
 Code and data for the paper "Parameters vs. Context: Fine-Grained Control of Knowledge Reliance in Language Models"
 
 Paper: https://arxiv.org/abs/2503.15888
+
 Authors: [Baolong Bi](https://byronbbl.github.io/) $^{1}$, [Shenghua Liu](https://shenghua-liu.github.io/) $^{1}$, [Yiwei Wang](https://wangywust.github.io/) $^{2}$, Yilong Xu $^{1}$, Junfeng Fang $^{3}$, Lingrui Mei $^{1}$, Xueqi Cheng $^{1}$
 
 $^1$ University of Chinese Academy of Sciences, $^2$ University of California, Merced, $^3$ National University of Singapore  
@@ -24,6 +25,8 @@ CK-PLUG then enables fine-grained control over knowledge preference by adjusting
 Experiments demonstrate CK-PLUG's ability to significantly regulate knowledge reliance in counterfactual RAG scenarios while maintaining generation fluency and knowledge accuracy.
 For instance, on LLaMA-3-8B, memory recall (MR) of RAG response can be adjusted within a broad range (9.9\%-71.9\%), compared to the baseline of 42.1\%.
 Moreover, CK-PLUG supports adaptive control based on the model's confidence in both internal and external knowledge, achieving consistent performance improvements across various general RAG tasks. 
+
+![CK-PLUG](framework.png)
 
 
 ## Experiments
