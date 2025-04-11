@@ -4,7 +4,7 @@ Parameters vs. Context: Fine-Grained Control of Knowledge Reliance in Language M
 [![Arxiv](https://img.shields.io/badge/arXiv-2503.15888-B21A1B)](https://arxiv.org/abs/2503.15888)
 [![Hugging Face Transformers](https://img.shields.io/badge/%F0%9F%A4%97-Transformers-blue)](https://github.com/huggingface/transformers)
 
-Code and data for the paper "Parameters vs. Context: Fine-Grained Control of Knowledge Reliance in Language Models"
+Code for the paper "Parameters vs. Context: Fine-Grained Control of Knowledge Reliance in Language Models"
 
 Paper: https://arxiv.org/abs/2503.15888
 
