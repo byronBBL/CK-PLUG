@@ -13,7 +13,7 @@ $^1$ University of Chinese Academy of Sciences, $^2$ University of California, M
 
 ## Overview
 
-![Parameters vs. Context](overview.jpg)
+![Parameters vs. Context](overview.png)
 
 Retrieval-Augmented Generation (RAG) mitigates hallucinations in Large Language Models (LLMs) by integrating external knowledge.
 However, conflicts between parametric knowledge and retrieved context pose challenges, particularly when retrieved information is unreliable or the model's internal knowledge is outdated. 
