@@ -40,9 +40,9 @@ pip install -e transformers-4.49
 Run the **knowledge reliance evaluation** on the NQ, ConFiQA and MQuAKE using the following command:  
 
 ```bash
-python evaluation.py --model_name ./model_path --data_path ./ConFiQA/ConFiQA-QA.json --output_path ./result/output.json
-python evaluation.py --model_name ./model_path --data_path ./ConFiQA/ConFiQA-QA.json --output_path ./result/output.json
-python evaluation.py --model_name ./model_path --data_path ./ConFiQA/ConFiQA-QA.json --output_path ./result/output.json
+python eval_NQ.py --model_name ./model_path --mode ck
+python eval_ConFiQA.py --model_name ./model_path --mode ck
+python eval_MQuAKE.py --model_name ./model_path --mode ck
 ```
 
 
