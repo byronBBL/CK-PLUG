@@ -31,6 +31,12 @@ Moreover, CK-PLUG supports adaptive control based on the model's confidence in b
 
 ## Experiments
 
+Setup with transformers (incorporating CK-PLUG)
+
+```bash
+pip install -e transformers-4.49
+```
+
 Run the **knowledge reliance evaluation** on the NQ, ConFiQA and MQuAKE using the following command:  
 
 ```bash
